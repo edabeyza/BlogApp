@@ -11,7 +11,7 @@ require('dotenv').config()
 const PORT = process.env.PORT || 8000
 
 // Db Connection
-require('./src/dbConnection')()
+require('./src/configs/dbConnection')()
 
 // Express async errors
 require('express-async-errors')
