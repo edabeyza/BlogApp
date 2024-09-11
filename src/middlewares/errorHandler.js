@@ -1,12 +1,12 @@
 "use strict"
 /* -----------------------------------------------
-        BLOG APP With Express JS
+        EXPRESSJS - BLOG Project with Mongoose
 ----------------------------------------------- */
 
 module.exports = (err, req, res, next) => {
     const errorStatusCode = res.errorStatusCode ?? 500
 
-    console.log('ErrorHandler çalıştı.')
+    console.log('ErrorHandler worked.')
 
     res.status(errorStatusCode).send({
         error: true,
