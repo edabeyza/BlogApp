@@ -4,5 +4,9 @@
 ----------------------------------------------- */
 
 module.export.blogController ={
-        list:
+        list:,
+        create:,
+        read:,
+        update:,
+        delete:
 }
